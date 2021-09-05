@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd scripts_bash
+mkdir One Two Three
+cd Two
+touch One.txt Two.txt Three.txt Onejson.json Twojson.json
+mkdir  Eins Zwei Drei
+ls -la
+mv One.txt Two.txt /home/bialywilk/group_22/scripts_bash/One
